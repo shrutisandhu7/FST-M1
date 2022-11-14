@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExampleSuite" >
+    <test name="SuiteTests" >
+        <groups>
+            <run>
+                <!--<include name="HeaderTests" />-->
+                <include name="ButtonTests" />
+                <exclude name="HeaderTests" />
+            </run>
+        </groups>
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>
+        <classes>
+            <!--<class name="Activity1"/>
+            <class name="Activity2"/>
+            <class name="Activity3"/>
+            <class name="Activity5"/>
+            <class name="Activity6"/>-->
+
+            <class name="Activity7"/>
+        </classes>
+    </test>
+</suite>
